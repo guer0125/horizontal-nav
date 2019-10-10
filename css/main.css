@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: "Bevan";
+  line-height: 1.5;
+  color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: .5em;
+  font-family: sans-serif;
+}
+
+.intro li {
+  max-width: 20em;
+  background-color: #713837;
+  border-radius: 5px;
+  margin: .1em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bevan';
+  font-family: sans-serif;
+}
+
+.intro li:hover {
+  background-color: #f33;
+}
+
+body {
+  background-color: #79756f;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #595652;
+  border-bottom-color: #595652;
+  margin: 0;
+  padding: 0;
+}
