@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: "Bevan";
   line-height: 1.5;
   color: #fff;
 }
@@ -13,9 +12,9 @@ html {
 h1 {
   display: block;
   text-align: center;
-  font-family: inherit;
   font-weight: bold;
-  margin: 0;
+  margin: .1em;
+  font-family: Bevan, serif;
 }
 
 ul {
@@ -35,17 +34,13 @@ ul li {
   background-color: #713837;
   border-radius: 5px;
   margin: .1em;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  font-family: 'Bevan';
   font-family: sans-serif;
-}
-
-.intro li:hover {
-  background-color: #f33;
 }
 
 body {
@@ -56,4 +51,9 @@ body {
   border-bottom-color: #595652;
   margin: 0;
   padding: 0;
+}
+
+.intro a:hover {
+  display: inline-block;
+  background-color: #f33;
 }
